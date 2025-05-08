@@ -7,14 +7,14 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow scroll-smooth">
       <section
         id="home"
         className="relative py-20 px-6 bg-black overflow-hidden">
   
   {/* Mobile background image */}
   <div
-    className="absolute inset-0 bg-[url('public/images/kburger.png')] bg-cover bg-center opacity-20  md:hidden"
+    className="absolute inset-0 bg-[url('/images/kburger.png')] bg-cover bg-center opacity-20  md:hidden"
     aria-hidden="true"></div>
 
   <div className="relative max-w-6xl mx-auto flex flex-col md:flex-row items-center md:justify-between z-10">
@@ -28,7 +28,7 @@ const App = () => {
         Experience the taste of home-cooked meals, made with love and care.
         
       </p>
-      <button type="button" className="bg-red-600 text-white py-2 px-2 rounded-lg mt-6 transition-all duration-500 hover:scale-105 ">Order Now</button>
+      <a href="https://www.instagram.com/kuiknosh?igsh=YzljYTk1ODg3Zg=="><button type="button" className="bg-red-600 cursor-pointer text-white py-2 px-2 rounded-lg mt-6 transition-all duration-500 hover:scale-105 ">Order Now</button></a>
     </div>
 
     {/* Right: Image (only shown on desktop) */}
@@ -48,7 +48,7 @@ const App = () => {
       {/* About Section */}
 <section
         id="about"
-        className="relative py-20 px-6 bg-white overflow-hidden">
+        className="relative py-20 px-6  bg-white overflow-hidden">
   
   {/* Mobile background image */}
   <div
@@ -60,7 +60,7 @@ const App = () => {
      
      <div className="hidden md:block md:w-1/2 ">
       <img
-        src="public/images/kfish.png"
+        src="/images/kfish.png"
         alt="burger"
         // className="w-full h-auto object-cover rounded-lg shadow-lg"
         className="w-130 h-auto transition-all rounded-4xl duration-500 hover:scale-105"/>
@@ -102,12 +102,12 @@ const App = () => {
 
     {/* Location Section */}
     <section
-        id="about"
+        id="location"
         className="relative py-20 px-6 bg-white overflow-hidden">
   
   {/* Mobile background image */}
   <div
-    className="absolute inset-0 bg-[url('public/images/Kmap.png')] bg-cover bg-center opacity-20  md:hidden"
+    className="absolute inset-0 bg-[url('/images/Kmap.png')] bg-cover bg-center opacity-20  md:hidden"
     aria-hidden="true"></div>
 
   <div className="relative max-w-6xl mx-auto flex flex-col md:flex-row items-center md:justify-between z-10">
@@ -115,7 +115,7 @@ const App = () => {
      
      <div className="hidden md:block md:w-1/2 ">
       <img
-        src="public/images/Kmap.png"
+        src="/images/Kmap.png"
         alt="burger"
         // className="w-full h-auto object-cover rounded-lg shadow-lg"
         className="w-130 h-auto transition-all rounded-4xl duration-500 hover:scale-105"/>

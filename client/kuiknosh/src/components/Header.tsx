@@ -1,17 +1,17 @@
 // Header.tsx
 const Header = () => {
     return (
-        <header className="bg-black shadow-md p-4 ">
+        <header className="bg-black shadow-md p-4 font-semibold">
             <div className="max-w-6xl mx-auto flex justify-between items-center">
                 <h1 className="text-xl font-bold text-white">Kuiknosh</h1>
                 <nav className="hidden md:flex space-x-8 items-center">
-                    <a href="/about" className="text-gray-300 hover:text-white">About</a>
-                    <a href="/location" className="text-gray-300 hover:text-white">Services</a>
-                    <a href="/services" className="text-gray-300 hover:text-white">Location</a>
-                    <a href="/contact" className="text-gray-300 hover:text-white">Contact</a>
+                    <a href="#about" className="text-gray-300 hover:text-white">About</a>
+                    <a href="#gallery" className="text-gray-300 hover:text-white">Services</a>
+                    <a href="#location" className="text-gray-300 hover:text-white">Contact</a>
+                    <a href="#feedback" className="text-gray-300 hover:text-white">Feedback</a>
 
                 </nav>
-                <button type="button" className="bg-red-600 py-2 px-2 rounded-lg transition-all duration-500 hover:scale-105 text-white" >Order Now</button>
+                <a href="https://www.instagram.com/kuiknosh?igsh=YzljYTk1ODg3Zg=="><button type="button" className="bg-red-600 cursor-pointer py-2 px-2 rounded-lg transition-all duration-500 hover:scale-105 text-white" >Order Now</button></a>
             </div>
         </header>
     );

@@ -3,17 +3,17 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    image: "public/images/kchicken.png",
+    image: "/images/kchicken.png",
     title: "Grilled Chicken with Veggies",
     description: "Juicy grilled chicken served with fresh sautéed vegetables."
   },
   {
-    image: "public/images/kspag.png",
+    image: "/images/kspag.png",
     title: "Spaghetti Bolognese",
     description: "Classic Italian pasta with rich tomato and beef sauce."
   },
   {
-    image: "public/images/kpie.png",
+    image: "/images/kpie.png",
     title: "Meatpie Deluxe",
     description: "Tasty-crunchy Meatpie."
   }
