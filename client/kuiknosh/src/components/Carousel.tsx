@@ -5,18 +5,18 @@ const slides = [
   {
     image: "/images/kchicken.png",
     title: "Grilled Chicken with Veggies",
-    description: "Juicy grilled chicken served with fresh sautéed vegetables."
+    description: "Juicy grilled chicken served with fresh sautéed vegetables.",
   },
   {
     image: "/images/kspag.png",
     title: "Spaghetti Bolognese",
-    description: "Classic Italian pasta with rich tomato and beef sauce."
+    description: "Classic Italian pasta with rich tomato and beef sauce.",
   },
   {
     image: "/images/kpie.png",
     title: "Meatpie Deluxe",
-    description: "Tasty-crunchy Meatpie."
-  }
+    description: "Tasty-crunchy Meatpie.",
+  },
 ];
 
 const CarouselSection = () => {
